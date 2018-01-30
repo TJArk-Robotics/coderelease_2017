@@ -1,0 +1,17 @@
+Build/*
+Game*/*
+*.dat
+*.con
+Make/LinuxCodeLite/*
+Make/NetBeans/*
+*.launch
+*.cproject
+*.project
+.settings/*
+*~
+*.config
+*.creator
+*.user
+*.files
+*.includes
+

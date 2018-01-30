@@ -1,0 +1,131 @@
+/**
+ * @file MessageIDs.h
+ *
+ * Declaration of ids for debug messages.
+ *
+ * @author Martin Lötzsch
+ */
+
+#pragma once
+
+#include "Tools/Enum.h"
+
+/**
+ * IDs for debug messages
+ *
+ * To distinguish debug messages, they all have an id.
+ */
+ENUM(MessageID,
+{,
+  undefined,
+  idProcessBegin,
+  idProcessFinished,
+
+  idActivationGraph,
+  idAnnotation,
+  idAudioData,
+  idBallModel,
+  idBallPercept,
+  idBehaviorMotionRequest,
+  idBehaviorStatus,
+  idBodyContour,
+  idCameraInfo,
+  idCameraMatrix,
+  idColorCalibration,
+  idDropInPlayer,
+  idFieldBoundary,
+  idFilteredJointData,
+  idFsrSensorData,
+  idFrameInfo,
+  idGameInfo,
+  idGoalPercept,
+  idGroundContactState,
+  idGroundTruthOdometryData,
+  idGroundTruthWorldState,
+  idImage,
+  idImageCoordinateSystem,
+  idImageInfo,
+  idInertialData,
+  idInertialSensorData,
+  idJointAngles,
+  idJointDataPrediction,
+  idJointSensorData,
+  idJointVelocities,
+  idJPEGImage,
+  idKeyStates,
+  idLinePercept,
+  idLineSpots,
+  idLocalizationTeamBall,
+  idLowFrameRateImage,
+  idMotionInfo,
+  idMotionRequest,
+  idObstacleModel,
+  idObstacleModelCompressed,
+  idOdometer,
+  idOdometryData,
+  idOpponentTeamInfo,
+  idOwnTeamInfo,
+  idPenaltyMarkPercept,
+  idPlayersPercept,
+  idRealisticBallPercepts,
+  idReceivedSPLStandardMessages,
+  idRobotHealth,
+  idRobotInfo,
+  idRobotPose,
+  idScanlineRegions,
+  idSideConfidence,
+  idSPLStandardBehaviorStatus,
+  idStopwatch,
+  idSystemSensorData,
+  idTeamBallModel,
+  idTeammateData,
+  idTeammateReliability,
+  idTeamPlayersModel,
+  idThumbnail,
+  idUsSensorData,
+  idZmp,
+
+  numOfDataMessageIDs, /**< everything below this does not belong into log files */
+
+  // ids used in team communication
+  idNTPHeader = numOfDataMessageIDs,
+  idNTPIdentifier,
+  idNTPRequest,
+  idNTPResponse,
+  idRobot,
+  idTeam,
+  idTeammateBallAge,
+  idTeammateHasGroundContact,
+  idTeammateIsPenalized,
+  idTeammateIsUpright,
+  idTeammateRoles,
+  idTeammateTimeOfLastGroundContact,
+  idWhistle,
+
+  // infrastructure
+  idConsole,
+  idDebugDataChangeRequest,
+  idDebugDataResponse,
+  idDebugDrawing,
+  idDebugDrawing3D,
+  idDebugImage,
+  idDebugJPEGImage,
+  idDebugRequest,
+  idDebugResponse,
+  idDrawingManager,
+  idDrawingManager3D,
+  idJointCalibration,
+  idJointRequest,
+  idLogResponse,
+  idModuleRequest,
+  idModuleTable,
+  idMotionNet,
+  idPlot,
+  idQueueFillRequest,
+  idRobotDimensions,
+  idRobotname,
+  idStreamSpecification,
+  idText,
+  idUSRequest,
+  idWalkingEngineKick,
+});
