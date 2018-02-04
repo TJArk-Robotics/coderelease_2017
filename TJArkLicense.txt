@@ -1,0 +1,50 @@
+Team TJArk - LICENSE
+------------------------------------------------------------------
+Copyright (c) 2017 Team TJArk, China.  All rights reserved.
+
+
+Preamble: Team TJArk releases a demo software for teams who want to
+participate in Robot Soccer Competition. Base code is based on B-Hu-
+man Code Release 2015, we thank B-Human for their ongoing contribu-
+tion to RoboCup Standard Platform League.
+
+Parts of this distribution were not developed by Team TJArk.
+This license doesn't apply to these parts, the rights of the copyright
+owners remain. (Especially those of B-Human)
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1.Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+
+2.Team TJArk opens source code for non profit purposes, We are not 
+  responsible for robot damage or other problems caused by this code.
+
+3.For each user of this code who compete in RoboCup SPL, the usage 
+  shall be announced to TJArk and other teams if possible at least
+  one week before the competition. 
+  (By e-mailing to: tjark.official@gmail.com) 
+
+4.We don't have any technical support for the code except for bug-fixing.
+
+5.Bug fixes regarding existing code shall be sent back to TJArk via
+  e-mails. (By e-mailing to: tjark.official@gmail.com)
+
+6.For other information, please refer to B-Human GitHub and their License.
+ (https://github.com/bhuman)
+
+THIS SOFTWARE IS PROVIDED BY TEAM-TJARK ``AS IS'' AND ANY
+EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+BY TEAM-TJARK NOR ITS MEMBERS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+------------------------------------------------------------------
